@@ -4,6 +4,7 @@ failedtarget = []
 
 
 def udp_sender(target, pack, args):
+    retries = ""
     if args.retries:
         retries = args.retries
 
